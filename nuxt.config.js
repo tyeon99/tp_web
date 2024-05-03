@@ -17,7 +17,14 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', type: 'text/css', href: 'https://img.thinkpool.com/hdc_thinkpool/css/font.css' },
+    ],
+    script: [],
+    bodyAttrs: {
+      class: 'kor',
+    },
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -36,7 +43,38 @@ export default {
   plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
+  components: [
+    {
+      path: '~/components/default/',
+    },
+    {
+      path: '~/components/landing/',
+    },
+    {
+      path: '~/components/about/',
+    },
+    {
+      path: '~/components/thinkpoolAi/',
+    },
+    {
+      path: '~/components/lbs/',
+    },
+    {
+      path: '~/components/rms/',
+    },
+    {
+      path: '~/components/rdcenter/',
+    },
+    {
+      path: '~/components/pr/',
+    },
+    {
+      path: '~/components/ir/',
+    },
+    {
+      path: '~/components/careers/',
+    },
+  ],
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
