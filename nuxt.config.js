@@ -20,8 +20,15 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' },
       { rel: 'stylesheet', type: 'text/css', href: 'https://img.thinkpool.com/hdc_thinkpool/css/font.css' },
+      { rel: 'stylesheet',
+        href: 'https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.css', },
     ],
-    script: [],
+    script: [
+      {
+        src: 'https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js',
+        defer: true,
+      },
+    ],
     bodyAttrs: {
       class: 'kor',
     },

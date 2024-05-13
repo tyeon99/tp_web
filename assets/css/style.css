@@ -301,7 +301,7 @@ a{
 
 /* rdCenter */
 .rdWrap{
-  @apply  p-[50px_0_150px];
+  @apply  p-[50px_0px_150px];
 }
 
 .rdWrap .titleSpan{

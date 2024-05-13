@@ -105,6 +105,10 @@ export default {
     @apply mt-[225px] w-auto;
   }
 
+  .awardBox .img img{
+    @apply w-[252px];
+  }
+
   .date{
     @apply text-[#141414] text-[16px] font-bold leading-[18px] mb-[24px];
   }
