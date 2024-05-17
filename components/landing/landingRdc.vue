@@ -27,7 +27,7 @@
             글로벌 과학적 투자 지원을 위<br>한 AI기반 서비스 시스템 개발
           </div>
           <div class="boxTxt en">
-            Advanced Technology Center Plus <br> (ATC+)
+            Advanced Technology Center Plus <br> (ATC+) <br><br>
           </div>
         </div>
         <div class="contentBox">
