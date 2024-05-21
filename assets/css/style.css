@@ -297,11 +297,11 @@ a{
 
 /* LoginProtectionServices */
 .LoginProtectionServices{
-  @apply flex justify-center items-center p-[48px_0_250px];
+  @apply flex justify-center items-center p-[48px_0_200px];
 }
 
 .lbsContent{
-  @apply flex justify-center items-center gap-[100px];
+  @apply w-[1480px] h-[740px] flex justify-between items-center gap-[100px];
 }
 /* LoginProtectionServices */
 
