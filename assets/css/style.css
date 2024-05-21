@@ -289,6 +289,12 @@ a{
   @apply w-[730px] text-[#141414] text-[20px] font-normal leading-[30px];
 }
 /* milestone */
+/* award */
+.awardBox .img{
+  @apply flex justify-center;
+}
+/* award */
+
 /* LoginProtectionServices */
 .LoginProtectionServices{
   @apply flex justify-center items-center p-[48px_0_250px];
@@ -378,16 +384,24 @@ a{
   @apply w-full border-t-[1px] border-[#444] mb-[70px];
 }
 
+.board .boardList.gap-0.pt-0{
+  @apply !gap-0 !pt-0;
+}
+
 .board .list{
   @apply w-full p-[25px_15px_25px_25px] flex justify-between items-center border-b-[1px] border-[#E6E6EB] gap-[100px] text-left;
 }
 
+.board .list .boardCon{
+  @apply w-[calc(100%-180px)];
+}
+
 .board .list .title{
-  @apply text-[#141414] text-[18px] font-normal leading-[23px] mb-0;
+  @apply text-[#141414] text-[18px] font-normal leading-[23px] mb-0 text-left;
 }
 
 .board .list:first-child .title{
-  @apply text-[#141414] text-[20px] font-bold leading-[25px] mb-[10px] text-left;
+  @apply text-[#141414] text-[20px] font-bold leading-[25px] mb-[10px];
 }
 
 .board .list:first-child .txt{

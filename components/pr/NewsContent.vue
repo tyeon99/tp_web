@@ -7,14 +7,14 @@
         <div class="title en">NEWS</div>
         <div class="boardList">
           <button class="list">
-            <div>
-              <div class="title ko text-truncate">2022 벤처창업진흥 유공포상 국무총리 표창 수상</div>
-              <div class="title en text-truncate">Received the Prime Minister's Award for Meritorious Achievement in Venture Startup Promotion in 2022  </div>
+            <div class="boardCon">
+              <div class="title ko">2022 벤처창업진흥 유공포상 국무총리 표창 수상</div>
+              <div class="title en">Received the Prime Minister's Award for Meritorious Achievement in Venture Startup Promotion in 2022  </div>
               <div class="txt ko text-truncate2">
                 금융 AI 전문기업 '씽크풀'이 '2022 벤처창업진흥 유공 포상 시상식'에서 벤처 활성화 부문의 국무총리 표창을 수상했다.
                 금융 AI 전문기업 '씽크풀'이 '2022 벤처창업진흥 유공 포상 시상식'에서 벤처 활성화 부문의 국무총리 표창을 수상했다.
               </div>
-              <div class="txt en txt-truncate2">
+              <div class="txt en text-truncate2">
                 Thinkpool, a financial AI company, won the Prime Minister's Commendation in the Venture Revitalization category at the 2022 Venture Startup Promotion Merit Award Ceremony. 
               </div>
             </div>
@@ -23,14 +23,14 @@
             </div>
           </button>
           <button class="list">
-            <div>
-              <div class="title ko text-truncate">2022 벤처창업진흥 유공포상 국무총리 표창 수상</div>
-              <div class="title en text-truncate">Received the Prime Minister's Award for Meritorious Achievement in Venture Startup Promotion in 2022  </div>
+            <div class="boardCon">
+              <div class="title ko">2022 벤처창업진흥 유공포상 국무총리 표창 수상</div>
+              <div class="title en">Received the Prime Minister's Award for Meritorious Achievement in Venture Startup Promotion in 2022  </div>
               <div class="txt ko text-truncate2">
                 금융 AI 전문기업 '씽크풀'이 '2022 벤처창업진흥 유공 포상 시상식'에서 벤처 활성화 부문의 국무총리 표창을 수상했다.
                 금융 AI 전문기업 '씽크풀'이 '2022 벤처창업진흥 유공 포상 시상식'에서 벤처 활성화 부문의 국무총리 표창을 수상했다.
               </div>
-              <div class="txt en txt-truncate2">
+              <div class="txt en text-truncate2">
                 Thinkpool, a financial AI company, won the Prime Minister's Commendation in the Venture Revitalization category at the 2022 Venture Startup Promotion Merit Award Ceremony. 
               </div>
             </div>
@@ -39,14 +39,14 @@
             </div>
           </button>
           <button class="list">
-            <div>
-              <div class="title ko text-truncate">2022 벤처창업진흥 유공포상 국무총리 표창 수상</div>
-              <div class="title en text-truncate">Received the Prime Minister's Award for Meritorious Achievement in Venture Startup Promotion in 2022  </div>
+            <div class="boardCon">
+              <div class="title ko">2022 벤처창업진흥 유공포상 국무총리 표창 수상</div>
+              <div class="title en">Received the Prime Minister's Award for Meritorious Achievement in Venture Startup Promotion in 2022  </div>
               <div class="txt ko text-truncate2">
                 금융 AI 전문기업 '씽크풀'이 '2022 벤처창업진흥 유공 포상 시상식'에서 벤처 활성화 부문의 국무총리 표창을 수상했다.
                 금융 AI 전문기업 '씽크풀'이 '2022 벤처창업진흥 유공 포상 시상식'에서 벤처 활성화 부문의 국무총리 표창을 수상했다.
               </div>
-              <div class="txt en txt-truncate2">
+              <div class="txt en text-truncate2">
                 Thinkpool, a financial AI company, won the Prime Minister's Commendation in the Venture Revitalization category at the 2022 Venture Startup Promotion Merit Award Ceremony. 
               </div>
             </div>
@@ -55,14 +55,14 @@
             </div>
           </button>
           <button class="list">
-            <div>
-              <div class="title ko text-truncate">2022 벤처창업진흥 유공포상 국무총리 표창 수상</div>
-              <div class="title en text-truncate">Received the Prime Minister's Award for Meritorious Achievement in Venture Startup Promotion in 2022  </div>
+            <div class="boardCon">
+              <div class="title ko">2022 벤처창업진흥 유공포상 국무총리 표창 수상</div>
+              <div class="title en">Received the Prime Minister's Award for Meritorious Achievement in Venture Startup Promotion in 2022  </div>
               <div class="txt ko text-truncate2">
                 금융 AI 전문기업 '씽크풀'이 '2022 벤처창업진흥 유공 포상 시상식'에서 벤처 활성화 부문의 국무총리 표창을 수상했다.
                 금융 AI 전문기업 '씽크풀'이 '2022 벤처창업진흥 유공 포상 시상식'에서 벤처 활성화 부문의 국무총리 표창을 수상했다.
               </div>
-              <div class="txt en txt-truncate2">
+              <div class="txt en text-truncate2">
                 Thinkpool, a financial AI company, won the Prime Minister's Commendation in the Venture Revitalization category at the 2022 Venture Startup Promotion Merit Award Ceremony. 
               </div>
             </div>
@@ -71,14 +71,14 @@
             </div>
           </button>
           <button class="list">
-            <div>
-              <div class="title ko text-truncate">2022 벤처창업진흥 유공포상 국무총리 표창 수상</div>
-              <div class="title en text-truncate">Received the Prime Minister's Award for Meritorious Achievement in Venture Startup Promotion in 2022  </div>
+            <div class="boardCon">
+              <div class="title ko">2022 벤처창업진흥 유공포상 국무총리 표창 수상</div>
+              <div class="title en">Received the Prime Minister's Award for Meritorious Achievement in Venture Startup Promotion in 2022  </div>
               <div class="txt ko text-truncate2">
                 금융 AI 전문기업 '씽크풀'이 '2022 벤처창업진흥 유공 포상 시상식'에서 벤처 활성화 부문의 국무총리 표창을 수상했다.
                 금융 AI 전문기업 '씽크풀'이 '2022 벤처창업진흥 유공 포상 시상식'에서 벤처 활성화 부문의 국무총리 표창을 수상했다.
               </div>
-              <div class="txt en txt-truncate2">
+              <div class="txt en text-truncate2">
                 Thinkpool, a financial AI company, won the Prime Minister's Commendation in the Venture Revitalization category at the 2022 Venture Startup Promotion Merit Award Ceremony. 
               </div>
             </div>

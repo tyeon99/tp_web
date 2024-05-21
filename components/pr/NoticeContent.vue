@@ -7,16 +7,16 @@
         <div class="title en">Notice</div>
         <div class="boardList">
           <button class="list">
-            <div>
-              <div class="title ko text-truncate">제 29기 정기주주총회 소집공고</div>
-              <div class="title en text-truncate">Notice of the 29th Annual General Meeting of Shareholders </div>
+            <div class="boardCon">
+              <div class="title ko">제 29기 정기주주총회 소집공고</div>
+              <div class="title en">Notice of the 29th Annual General Meeting of Shareholders </div>
               <div class="txt ko text-truncate2">
                 제 29기 정기주주총회 소집 공고 주주님의 건승과 댁내의 평안을 기원합니다. 당사는 상법 363조와 정관 제 23조에 의거 제 29기 정기주주총회를 아래와 같이
                 소집하오니 참석하여 주시기 바랍니다. 또한 당사는 상법 제 363조와 정관
                 제 23조에 의거 제 29기 정기주주총회를 아래와 같이
                 소집하오…
               </div>
-              <div class="txt en txt-truncate2">
+              <div class="txt en text-truncate2">
                 Notice of the 29th Annual General Meeting of Shareholders. We hereby convene the 29th Ordinary General
                 Meeting of Shareholders pursuant to Article 363 of the Commercial Code and Article 23 of the Articles of
                 Association as follows, and invite you to attend. Also...
@@ -27,11 +27,11 @@
             </div>
           </button>
           <button class="list">
-            <div>
-              <div class="title ko text-truncate">
+            <div class="boardCon">
+              <div class="title ko">
                 제 29기 정기주주총회 소집공고 정기주주총회 소집공고
               </div>
-              <div class="title en text-truncate">
+              <div class="title en">
                 Notice of the 29th Annual General Meeting of Shareholders
               </div>
             </div>
@@ -40,11 +40,11 @@
             </div>
           </button>
           <button class="list">
-            <div>
-              <div class="title ko text-truncate">
+            <div class="boardCon">
+              <div class="title ko">
                 제 29기 정기주주총회 소집공고 정기주주총회 소집공고
               </div>
-              <div class="title en text-truncate">
+              <div class="title en">
                 Notice of the 29th Annual General Meeting of Shareholders
               </div>
             </div>
@@ -53,11 +53,11 @@
             </div>
           </button>
           <button class="list">
-            <div>
-              <div class="title ko text-truncate">
+            <div class="boardCon">
+              <div class="title ko">
                 제 29기 정기주주총회 소집공고 정기주주총회 소집공고
               </div>
-              <div class="title en text-truncate">
+              <div class="title en">
                 Notice of the 29th Annual General Meeting of Shareholders
               </div>
             </div>
@@ -66,11 +66,11 @@
             </div>
           </button>
           <button class="list">
-            <div>
-              <div class="title ko text-truncate">
+            <div class="boardCon">
+              <div class="title ko">
                 제 29기 정기주주총회 소집공고 정기주주총회 소집공고
               </div>
-              <div class="title en text-truncate">
+              <div class="title en">
                 Notice of the 29th Annual General Meeting of Shareholders
               </div>
             </div>
@@ -79,11 +79,11 @@
             </div>
           </button>
           <button class="list">
-            <div>
-              <div class="title ko text-truncate">
+            <div class="boardCon">
+              <div class="title ko">
                 제 29기 정기주주총회 소집공고 정기주주총회 소집공고
               </div>
-              <div class="title en text-truncate">
+              <div class="title en">
                 Notice of the 29th Annual General Meeting of Shareholders
               </div>
             </div>
@@ -92,11 +92,11 @@
             </div>
           </button>
           <button class="list">
-            <div>
-              <div class="title ko text-truncate">
+            <div class="boardCon">
+              <div class="title ko">
                 제 29기 정기주주총회 소집공고 정기주주총회 소집공고
               </div>
-              <div class="title en text-truncate">
+              <div class="title en">
                 Notice of the 29th Annual General Meeting of Shareholders
               </div>
             </div>
@@ -105,11 +105,11 @@
             </div>
           </button>
           <button class="list">
-            <div>
-              <div class="title ko text-truncate">
+            <div class="boardCon">
+              <div class="title ko">
                 제 29기 정기주주총회 소집공고 정기주주총회 소집공고
               </div>
-              <div class="title en text-truncate">
+              <div class="title en">
                 Notice of the 29th Annual General Meeting of Shareholders
               </div>
             </div>
@@ -132,8 +132,8 @@
         <div class="title en">Notice</div>
         <div class="boardList">
           <div class="listDetail">
-            <div class="title ko text-truncate">제29기 정기주주총회 소집공고</div>
-            <div class="title en text-truncate">Small Merger Announcement</div>
+            <div class="title ko">제29기 정기주주총회 소집공고</div>
+            <div class="title en">Small Merger Announcement</div>
             <div class="date">2023-03-10</div>
           </div>
           <div class="listDetail">
@@ -184,14 +184,14 @@
           <button class="anotherList">
             <strong class="ko">이전글</strong>
             <strong class="en">Prev</strong>
-            <span class="ko text-truncate">제 29기 정기 같이 소집하오니 참석하여 주시기 바랍니다.</span>
-            <span class="en text-truncate">Small Merger Announcement</span>
+            <span class="ko">제 29기 정기 같이 소집하오니 참석하여 주시기 바랍니다.</span>
+            <span class="en">Small Merger Announcement</span>
           </button>
           <button class="anotherList">
             <strong class="ko">다음글</strong>
             <strong class="en">Next</strong>
-            <span class="ko text-truncate">제 29기 정기 같이 소집하오니 참석하여 주시기 바랍니다.</span>
-            <span class="en text-truncate">Notice of the 29th Annual General Meeting of Shareholders </span>
+            <span class="ko">제 29기 정기 같이 소집하오니 참석하여 주시기 바랍니다.</span>
+            <span class="en">Notice of the 29th Annual General Meeting of Shareholders </span>
           </button>
         </div>
         <div class="more">
