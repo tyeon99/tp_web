@@ -26,7 +26,7 @@
         <button class="en list08">Careers</button>
       </div>
 
-      <div class="headerNavCon">
+      <div class="headerNavCon opacity-0 invisible">
 
         <div class="menuList list01">
           <nuxt-link to="/about/corporateOverview" class="ko">회사개요</nuxt-link>
@@ -109,23 +109,55 @@ export default {
       isEngActive: false,
     }
   },
+  mounted() {
+    const headerNav = this.$el.querySelector('.headerNav');
+    const headerNavCon = this.$el.querySelector('.headerNavCon');
+    const nuxtLinks = this.$el.querySelectorAll('.menuList a');
+
+    headerNav.addEventListener('mouseover', () => {
+      headerNavCon.classList.toggle('opacity-100', true);
+      headerNavCon.classList.toggle('visible', true);
+      headerNavCon.classList.toggle('opacity-0', false);
+      headerNavCon.classList.toggle('invisible', false);
+    });
+
+    headerNav.addEventListener('mouseleave', () => {
+      headerNavCon.classList.toggle('opacity-100', false);
+      headerNavCon.classList.toggle('visible', false);
+      headerNavCon.classList.toggle('opacity-0', true);
+      headerNavCon.classList.toggle('invisible', true);
+    });
+
+    nuxtLinks.forEach(link => {
+      link.addEventListener('click', this.hideMenu);
+    });
+  },
   methods: {
     changeKor() {
       this.isKorActive = !this.isKorActive
       if (this.isKorActive) {
-        this.isEngActive = false
-        document.body.classList.toggle('eng')
-        document.body.classList.toggle('kor')
+        this.isEngActive = false;
+        document.body.classList.toggle('eng');
+        document.body.classList.toggle('kor');
       } 
     },
     changeEng() {
       this.isEngActive = !this.isEngActive
       if (this.isEngActive) {
-        this.isKorActive = false
-        document.body.classList.toggle('kor')
-        document.body.classList.toggle('eng')
+        this.isKorActive = false;
+        document.body.classList.toggle('kor');
+        document.body.classList.toggle('eng');
       } 
     },
+    hideMenu() {
+      const headerNavCon = this.$el.querySelector('.headerNavCon');
+      if (headerNavCon) {
+        headerNavCon.classList.toggle('opacity-0', true);
+        headerNavCon.classList.toggle('invisible', true);
+        headerNavCon.classList.toggle('opacity-100', false);
+        headerNavCon.classList.toggle('visible', false);
+      }
+    }
   },
 }
 </script>
@@ -152,7 +184,7 @@ export default {
 }
 
 .headerNavCon{
-  @apply absolute max-w-[1920px] w-[1940px] left-[-464px] flex justify-start items-start gap-[30px] bg-[#fff] pl-[464px] opacity-0 invisible overflow-hidden duration-[0.5s];
+  @apply absolute max-w-[1920px] w-[1940px] left-[-464px] flex justify-start items-start gap-[30px] bg-[#fff] pl-[464px] overflow-hidden duration-[0.4s];
 }
 
 .menuList{
@@ -161,10 +193,6 @@ export default {
 
 .menuList a{
   @apply text-[#000] text-[14px] leading-[30px] font-normal text-center;
-}
-
-.headerNav:hover .headerNavCon{
-  @apply opacity-100 visible;
 }
 
 .changeLang {
