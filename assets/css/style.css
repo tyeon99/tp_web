@@ -90,15 +90,8 @@ a{
 
 /* landing section */
 
-.landingMainBg{
-  background: url(~/assets/img/mainBg.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .section{
-  @apply w-full h-[970px] flex justify-center items-center;
+  @apply w-full h-[970px] flex justify-center items-center overflow-hidden;
 }
 
 .titleSpan{
