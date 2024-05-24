@@ -191,7 +191,7 @@ export default {
 }
 
 .listBox{
-  @apply w-full rounded-[12px] bg-[#fff] shadow-[0px_4px_12px_0px_rgba(0,0,0,0.15)] p-[30px_25px] flex justify-between items-center;
+  @apply w-full rounded-[12px] bg-[#fff] shadow-[0px_4px_12px_0px_rgba(0,0,0,0.15)] p-[30px_25px] flex justify-between items-center cursor-pointer;
 }
 
 .listBox strong{

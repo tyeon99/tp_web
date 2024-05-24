@@ -3,7 +3,13 @@
     <div class="tmsSection">
       <div class="left">
         <div class="img">
-          <img src="~/assets/img/tmsImg.png" alt="">
+          <img src="~/assets/img/tmsImg_ko.png" alt="" class="ko">
+          <img src="~/assets/img/tmsImg_en.png" alt="" class="en">
+        </div>
+        <div class="tag">
+          <div class="tagWrap">
+            <img src="~/assets/img/tmsIcon.png" alt="">
+          </div>
         </div>
       </div>
       <div class="right">
@@ -45,6 +51,10 @@ export default {
 <style scoped>
   .tmsSection {
     @apply flex justify-center items-center gap-[180px];
+  }
+
+  .tag {
+    @apply w-full flex justify-center items-center mt-[50px];
   }
 
   .right{

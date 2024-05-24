@@ -6,17 +6,25 @@
       </div>
       <div class="landingMain">
         <div class="mainTitle ko">
-          AI 투자금융 테크기업 씽크풀
+          투자금융 AI기업 <br>씽크풀
         </div>
         <div class="mainTitle en">
-          AI Investment Finance Tech Company THINKPOOL
+          AI Investment Finance<br>
+          Tech Company<br>
+          THINKPOOL<br>
         </div>
         <div class="mainTxt ko">
-          씽크풀은 데이터와 AI시대, 초지능형 과학적 의사결정을 지원하는 지식기업입니다.
+          데이터와 AI시대, <br>
+          씽크풀은 <br>
+          초지능형 의사결정을 지원하는 <br>
+          지식기업입니다.
         </div>
         <div class="mainTxt en">
-          ThinkPool is a knowledge company that supports super-intelligent scientific decision-making in the era of data
-          and AI
+          ThinkPool is a knowledge <br>
+          company that supports<br>
+          super-intelligent scientific<br>
+          decision-making in the era<br>
+          of data and AI.
         </div>
       </div>
     </div>
@@ -47,7 +55,7 @@ export default {
   }
 
   .landingMain{
-    @apply w-full text-center absolute top-[45%];
+    @apply w-full text-center absolute top-[35%];
   }
 
   .mainTitle{

@@ -14,7 +14,8 @@
         </nuxt-link>
         <div class="detail">
           <div class="img">
-            <img src="~/assets/img/lbsImg02.png" alt="">
+            <img src="~/assets/img/lbsImg02_ko.png" alt="" class="ko">
+            <img src="~/assets/img/lbsImg02_en.png" alt="" class="en">
           </div>
           <div class="explanation">
             <div class="subTitle ko">위치기반서비스</div>
@@ -69,7 +70,7 @@ export default {
   }
 
   .detail{
-    @apply flex justify-center items-center gap-[250px];
+    @apply flex justify-center items-center gap-[200px];
   }
 
   .img{
@@ -81,7 +82,7 @@ export default {
   }
 
   .explanation{
-    @apply mt-[30px];
+    @apply mt-[30px] w-[400px];
   }
 
   .subTitle{

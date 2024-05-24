@@ -12,12 +12,7 @@
         <div class="detail en">&lt;SBS 신년특집 AI vs 인간 출연&gt;</div>
         <div class="tag">
           <div class="tagWrap">
-            <span>
-              <img src="~/assets/img/smsIcon01.png" alt="">
-            </span>
-            <span>
-              <img src="~/assets/img/smsIcon02.png" alt="">
-            </span>
+            <img src="~/assets/img/smsIcon.png" alt="">
           </div>
         </div>
       </div>
@@ -74,14 +69,6 @@ export default {
 
   .tag {
     @apply w-full flex justify-center items-center;
-  }
-
-  .tagWrap {
-    @apply w-[322px] grid grid-cols-2 gap-[10px] place-content-center;
-  }
-
-  .tag span {
-    @apply w-[156px] h-[45px] flex justify-center items-center rounded-[6px] bg-[#fff];
   }
 
   .right{

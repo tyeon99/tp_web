@@ -3,7 +3,8 @@
     <div class="rmsWrap">
       <div class="imgWrap">
         <div class="img">
-          <img src="~assets/img/rmsImg.png" alt="">
+          <img src="~assets/img/rmsImg_ko.png" alt="" class="ko">
+          <img src="~assets/img/rmsImg_en.png" alt="" class="en">
         </div>
         <div class="iconBox">
           <img src="~/assets/img/rmsIcon.png" alt="">
@@ -42,11 +43,15 @@ export default {
   }
 
   .rmsWrap{
-    @apply flex justify-center items-center gap-[240px];
+    @apply flex justify-center items-center gap-[200px];
   }
 
   .imgWrap{
     @apply flex flex-col justify-center items-center gap-[40px];
+  }
+
+  .txtWrap{
+    @apply w-[533px];
   }
 
   .subTitle{

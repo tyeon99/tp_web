@@ -3,22 +3,12 @@
     <div class="pmsSection">
       <div class="left">
         <div class="img">
-          <img src="~/assets/img/pmsImg.png" alt="">
+          <img src="~/assets/img/pmsImg_ko.png" alt="" class="ko">
+          <img src="~/assets/img/pmsImg_en.png" alt="" class="en">
         </div>
         <div class="tag">
           <div class="tagWrap">
-            <span>
-              <img src="~/assets/img/pmsIcon01.png" alt="현대차증권">
-            </span>
-            <span>
-              <img src="~/assets/img/pmsIcon02.png" alt="키움증권">
-            </span>
-            <span>
-              <img src="~/assets/img/pmsIcon03.png" alt="대신증권">
-            </span>
-            <span>
-              <img src="~/assets/img/pmsIcon04.png" alt="DB금융투자">
-            </span>
+            <img src="~/assets/img/pmsIcon.png" alt="">
           </div>
         </div>
       </div>
@@ -61,14 +51,6 @@ export default {
 
   .tag {
     @apply w-full flex justify-center items-center;
-  }
-
-  .tagWrap {
-    @apply w-[322px] grid grid-cols-2 gap-[10px] place-content-center;
-  }
-
-  .tag span {
-    @apply w-[156px] h-[45px] flex justify-center items-center rounded-[6px] border border-[#f0f0ff];
   }
 
   .num{

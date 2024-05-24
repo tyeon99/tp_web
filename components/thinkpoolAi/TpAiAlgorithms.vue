@@ -7,9 +7,11 @@
         AI Market Prediction & Quant's Stock Picking to Create Synergy Between Algorithms
       </div>
       <div class="contentImg">
-        <img src="~/assets/img/aiAlgoImg.png" alt="">
+        <img src="~/assets/img/aiAlgoImg_ko.png" alt="" class="ko">
+        <img src="~/assets/img/aiAlgoImg_en.png" alt="" class="en">
         <div class="aiAlgoImg02">
-          <img src="~/assets/img/aiAlgoImg02.png" alt="">
+          <img src="~/assets/img/aiAlgoImg02_ko.png" alt="" class="ko">
+          <img src="~/assets/img/aiAlgoImg02_en.png" alt="" class="en">
         </div>
       </div>
       <div class="alDetail">
@@ -45,7 +47,10 @@
               2023년 12월 기준, 매수 9개 매도 15개의 독립적인 AI알고리즘으로 종목별 매매 타이밍 생성 <br>
               변동성을 중심으로 학습된 개별 알고리즘은 지속적인 AI 학습을 통해 스스로 발전 중
             </div>
-            <div class="txt en"></div>
+            <div class="txt en">
+              As of December 2023, 9 buys and 15 sells, creating trading timings by stock with an independent AI algorithm <br>
+              Individual algorithms trained around variability are developing themselves through continuous AI learning
+            </div>
           </div>
         </div>
       </div>

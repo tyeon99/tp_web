@@ -14,7 +14,8 @@
         </nuxt-link>
         <div class="detail">
           <div class="img">
-            <img src="~/assets/img/lbsImg.png" alt="">
+            <img src="~/assets/img/lbsImg_ko.png" alt="" class="ko">
+            <img src="~/assets/img/lbsImg_en.png" alt="" class="en">
             <div class="txtBox ko">
               언제든지 발생할 수 있는 부정로그인 및 해킹을 방지하는 위치기반 <br> 보안서비스<br><br>
               디지털 범죄로 인한 금전적 피해발생 시 보상보험 제공 (해킹, 피싱,<br> 스미싱, 불법 카드 사용 등)<br><br>
@@ -67,9 +68,14 @@
               KT / LG U+ / SKT / KB 국민카드 / 코스콤 / KORAIL /<br> 넷마블 / 하이플러스카드 /컬쳐랜드 / 넥슨 / 부산은행 /<br> MBN / SK컴즈 / iMBC /인터파크 / OK캐시백 / 재무교<br>육원 / 조세일보 / 싸이월드 / 부산대학교 / 네이트 /한국<br>전자인증 / 바른소프트 / 한국무역정보통신 / 다날 /나이<br>스평가정보 / 서경방송 / 열린사이버대학교 / 아시아경<br>제 / 교보문고 / SBS / 60여 업체 제휴
             </div>
             <div class="partners en">
-              KT / LG U+ / SKT / KB Kookmin Card / KOSCOM / KORAIL / NET <br>MABLE / HI-PLUS CARD / CULTURELAND / NEXON / BUSAN <br>BANK / MBN / SK COMS<br>
-              / iMBC / INTERPARK / OK CASHBACK / Finance Institute / Tax <br>Journal / cyworld / Pusan univ / Nate / Korean Electronic <br>Certificate / VARNSOFT  / KTNET<br>
-              / DANAL / NICEINFO / ISCS / OPEN CYBER UNIV / ASIA <br>ECONOMY / KYOBO BOOK / SBS / Partnered with 60+ <br>companies
+              KT / LG U+ / SKT / KB Kookmin Card / KOSCOM / KORAIL / <br>
+              NET MABLE / HI-PLUS CARD / CULTURELAND / NEXON / <br>
+              BUSAN BANK / MBN / SK COMS / iMBC / INTERPARK / <br>
+              OK CASHBACK / Finance Institute / Tax Journal / <br>
+              cyworld / Pusan univ / Nate / Korean Electronic <br>
+              Certificate / VARNSOFT  / KTNET / DANAL / NICEINFO / <br>
+              ISCS / OPEN CYBER UNIV / ASIA ECONOMY / <br>
+              KYOBO BOOK / SBS / Partnered with 60+ companies
             </div>
           </div>
         </div>
@@ -107,7 +113,7 @@ export default {
   }
 
   .detail{
-    @apply flex justify-center items-start gap-[250px] h-[740px];
+    @apply flex justify-center items-start gap-[200px] h-[740px];
   }
 
   .img{
@@ -119,7 +125,7 @@ export default {
   }
 
   .explanation{
-    @apply mt-[100px];
+    @apply mt-[100px] w-[400px];
   }
 
   .subTitle{
@@ -139,7 +145,7 @@ export default {
   }
 
   .icon{
-    @apply w-[156px] h-[45px] rounded-[6px] border border-[#f0f0f0] bg-[#fff] flex justify-center items-center;
+    @apply w-[187px] h-[54px] rounded-[6px] border border-[#f0f0f0] bg-[#fff] flex justify-center items-center;
   }
 
   .txt{
