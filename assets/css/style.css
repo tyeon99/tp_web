@@ -107,7 +107,7 @@ a{
 }
 
 .img01{
-  background: url(~/assets/img/section3Img01.png) #DEE3EA 50%;
+  background: url(~/assets/img/section3Img01.gif) #DEE3EA 50%;
   background-blend-mode: multiply;
   background-position: center;
   background-repeat: no-repeat;
@@ -117,7 +117,7 @@ a{
 }
 
 .img02{
-  background: url(~/assets/img/section3Img02.png) #DEE3EA 50%;
+  background: url(~/assets/img/section3Img02.gif) #DEE3EA 50%;
   background-blend-mode: multiply;
   background-position: center;
   background-repeat: no-repeat;
@@ -127,7 +127,7 @@ a{
 }
 
 .img03{
-  background: url(~/assets/img/section4Img01.png);
+  background: url(~/assets/img/section4Img01.gif);
   background-blend-mode: multiply;
   background-position: center;
   background-repeat: no-repeat;
@@ -137,7 +137,7 @@ a{
 }
 
 .img04{
-  background: url(~/assets/img/section4Img02.png);
+  background: url(~/assets/img/section4Img02.gif);
   background-blend-mode: multiply;
   background-position: center;
   background-repeat: no-repeat;
@@ -147,7 +147,7 @@ a{
 }
 
 .img05{
-  background: url(~/assets/img/section5Img01.png);
+  background: url(~/assets/img/section5Img01.gif);
   background-blend-mode: multiply;
   background-position: center;
   background-repeat: no-repeat;
@@ -157,7 +157,7 @@ a{
 }
 
 .img06{
-  background: url(~/assets/img/section5Img02.png);
+  background: url(~/assets/img/section5Img02.gif);
   background-blend-mode: multiply;
   background-position: center;
   background-repeat: no-repeat;
@@ -167,7 +167,7 @@ a{
 }
 
 .img07{
-  background: url(~/assets/img/section5Img03.png);
+  background: url(~/assets/img/section5Img03.gif);
   background-blend-mode: multiply;
   background-position: center;
   background-repeat: no-repeat;
