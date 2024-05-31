@@ -192,7 +192,7 @@ export default {
 }
 
 .menuList a{
-  @apply text-[#000] text-[14px] leading-[30px] font-normal text-center;
+  @apply text-[#000] text-[14px] leading-[18px] font-normal text-center py-[6px];
 }
 
 .changeLang {
