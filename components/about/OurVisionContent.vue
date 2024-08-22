@@ -1,7 +1,7 @@
 <template>
   <div class="ourVisionContent">
     <div class="categoryContent">
-      <div class="contentLeft">
+      <!-- <div class="contentLeft">
         <div class="contentTitle ko">
           데이터와 AI시대, 초지능형 <br>
           과학적 의사결정을 지원하는 <br>
@@ -32,6 +32,14 @@
             <span class="en">We will further develop Thinkpool's unique technologies in the fields of investment banking and big data to grow into a global company with global competitiveness.</span>
           </div>
         </div>
+      </div> -->
+
+
+
+
+      <div>
+        <img src="~/assets/img/n_vision.png" alt="" width="885" class="ko">
+        <img src="~/assets/img/vision_en.png" alt="" width="885" class="en">
       </div>
     </div>
   </div>
@@ -45,7 +53,7 @@ export default {
 
 <style scoped>
   .categoryContent{
-    @apply gap-[350px];
+    @apply gap-[350px] pt-0;
   }
 
   .contentTitle::before{

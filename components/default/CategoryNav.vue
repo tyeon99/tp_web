@@ -79,8 +79,8 @@ export default {
     return {
       categorys: [
       { ko: '회사소개', en: 'About Us',  to: '/about/corporateOverview'},
-      { ko: 'ThinkPool AI', en: 'ThinkPool AI', to: '/thinkpoolAi/axRassi' },
-      { ko: '위치기반서비스', en: 'LBS', to: '/lbs/loginProtection' },
+      { ko: 'AI', en: 'AI', to: '/thinkpoolAi/axRassi' },
+      { ko: '위치기반솔루션', en: 'LBS', to: '/lbs/loginProtection' },
       { ko: '리스크관리솔루션', en: 'RMS', to: '/rms/rmsSystem' },
       { ko: '기업부설연구소', en: 'R&D Center', to: '/rdcenter/rdNational01' },
       { ko: '홍보센터', en: 'PR', to: '/pr/notice' },
@@ -98,16 +98,22 @@ export default {
       { ko: '복지제도', en: 'Welfare System' },
       { ko: '인재상', en: 'Our Values' },
       { ko: '오시는길', en: 'Contact' },
-      { ko: 'AX RASSI', en: 'AX RASSI' },
-      { ko: 'ThinkPool AI Algorithm', en: 'ThinkPool AI Algorithm' },
+      { ko: 'AX 라씨', en: 'AX RASSI' },
+      { ko: '라씨매매비서', en: 'RASSI Trading Assistant' },
+      { ko: '알고리즘 협업', en: 'Collaborate on Algorithms' },
       { ko: '로그인보호서비스', en: 'Login Protection Services' },
       { ko: '안심키퍼서비스', en: 'SafeKeeper Service' },
       { ko: 'RMS통제시스템', en: 'RMS System' },
+      { ko: '온투업RMS시스템', en: 'On to Up RMS System' },
       { ko: '국가R&D', en: 'National R&D' },
       { ko: '병역특례', en: 'Technical Research Personnel' },
       { ko: '공지사항', en: 'Notice' },
       { ko: 'NEWS', en: 'NEWS' },
-      { ko: 'IR', en: 'IR' },
+      { ko: '소셜미디어', en: 'NEWS' },
+      { ko: '사회공헌활동', en: 'NEWS' },
+      { ko: '문의하기', en: 'NEWS' },
+      { ko: '재무정보', en: 'Financials' },
+      { ko: '공시정보', en: 'NEWS' },
       { ko: '채용공고', en: 'Recruit' },
       ]
     };
@@ -129,7 +135,7 @@ export default {
   }
 
   .categoryNav{
-    @apply mt-[80px] w-full flex justify-start items-center gap-[5px] pl-[250px] pt-[13px];
+    @apply w-[1360px] flex gap-[5px] justify-start items-center absolute top-3 left-1/2 ml-[-680px] z-20
   }
 
   .categoryName{
