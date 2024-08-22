@@ -18,7 +18,7 @@
       <!-- // -->
 
       <div class="sectionContent">
-        <div class="txtBox">
+        <div class="txtBox !w-[330px]">
           <div class="text-right txt">
             <NuxtLink to="/thinkpoolAi/axRassi">
               <div class="boxTitle">SMS</div>

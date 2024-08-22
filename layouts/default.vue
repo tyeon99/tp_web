@@ -24,6 +24,6 @@ export default{
 
 <style scoped>
 #wrap {
-  @apply w-full min-w-[1920px]
+  @apply w-full min-w-[1680px]
 }
 </style>

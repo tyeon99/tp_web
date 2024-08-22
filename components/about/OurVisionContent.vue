@@ -1,46 +1,55 @@
 <template>
   <div class="ourVisionContent">
     <div class="categoryContent">
-      <!-- <div class="contentLeft">
-        <div class="contentTitle ko">
-          데이터와 AI시대, 초지능형 <br>
-          과학적 의사결정을 지원하는 <br>
-          지식기업
-        </div>
-        <div class="contentTitle en">
-          " Knowledge enterprises <br>
-          supporting data, AI expectations, <br>
-          and super-intelligent scientific <br>
-          decision-making "
+      <div class="contentHead ko">
+        <em>[</em> <span>AI 투자금융 테크기업</span> <em>]</em>
+      </div>
+      <div class="contentHead en">
+        <em>[</em> <span>AI Investment Finance Tech Company</span> <em>]</em>
+      </div>
+
+      <div class="visionImg">
+        <img src="~/assets/img/n_vision.png" alt="" width="366" class="ko">
+        <img src="~/assets/img/vision_en.png" alt="" width="366" class="en">
+      </div>
+
+      <div class="contentTitle ko">
+        데이터와 AI시대, 초지능형 과학적 의사결정을 지원하는 지식기업
+      </div>
+      <div class="contentTitle en">
+        Data and AI Era, Knowledge Companies Support <br />
+        Superintelligent Scientific Decision-Making
+      </div>
+
+      <div class="subContent">
+        <div class="subTitle ko">철학</div>
+        <div class="subTitle en">Philosophy</div>
+        <div class="subBoxGroup">
+          <div class="box">
+            <div class="title ko">직원</div>
+            <div class="txt ko">'직원의 자아 성장을 위한 <br /> 즐거운 삶의 장'</div>
+            <div class="title en">Employee</div>
+            <div class="txt en">‘A fun place to live for the <br /> self-growth of employees’</div>
+          </div>
+          <div class="box">
+            <div class="title ko">고객</div>
+            <div class="txt ko">'고객의 만족이 <br />곧 씽크풀의 가치'</div>
+            <div class="title en">Customer</div>
+            <div class="txt en">‘Customer satisfaction is<br /> the value of Thinkpool’</div>
+          </div>
+          <div class="box">
+            <div class="title ko">사회</div>
+            <div class="txt ko">'사회적 상상력을 키우고 실현, <br />인재 육성, 봉사를 통한<br /> 사회 환원'</div>
+            <div class="title en">Society</div>
+            <div class="txt en">‘Developing and realizing social<br /> imagination, fostering human<br /> resources, and returning to society<br /> through service’</div>
+          </div>
         </div>
       </div>
-      <div class="contentRight">
-        <div class="contentList">
-          <div class="list">
-            <strong>01</strong>
-            <span class="ko">투자금융과 마이데이터 분야에서는 씽크풀만의 독자적인 기술을 더욱 발전시켜 글로벌 경쟁력을 갖추고 글로벌 기업으로 성장해 나가겠습니다.</span>
-            <span class="en">We will further develop Thinkpool's unique technologies in the fields of investment banking and big data to grow into a global company with global competitiveness.</span>
-          </div>
-          <div class="list">
-            <strong>02</strong>
-            <span class="ko">투자금융과 마이데이터 분야에서는 씽크풀만의 독자적인 기술을 더욱 발전시켜 글로벌 경쟁력을 갖추고 글로벌 기업으로 성장해 나가겠습니다.</span>
-            <span class="en">We will further develop Thinkpool's unique technologies in the fields of investment banking and big data to grow into a global company with global competitiveness.</span>
-          </div>
-          <div class="list">
-            <strong>03</strong>
-            <span class="ko">투자금융과 마이데이터 분야에서는 씽크풀만의 독자적인 기술을 더욱 발전시켜 글로벌 경쟁력을 갖추고 글로벌 기업으로 성장해 나가겠습니다.</span>
-            <span class="en">We will further develop Thinkpool's unique technologies in the fields of investment banking and big data to grow into a global company with global competitiveness.</span>
-          </div>
-        </div>
-      </div> -->
 
-
-
-
-      <div>
+      <!-- <div>
         <img src="~/assets/img/n_vision.png" alt="" width="885" class="ko">
         <img src="~/assets/img/vision_en.png" alt="" width="885" class="en">
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -53,7 +62,15 @@ export default {
 
 <style scoped>
   .categoryContent{
-    @apply gap-[350px] pt-0;
+    @apply flex-col gap-[60px] pt-0 items-center;
+  }
+
+  .contentHead{
+    @apply text-black text-[48px] font-light flex justify-start items-center gap-[14px];
+  }
+
+  .contentHead em{
+    @apply font-bold text-[#d9d9d9];
   }
 
   .contentTitle::before{
@@ -61,38 +78,30 @@ export default {
   }
 
   .contentTitle::after{
-    @apply bottom-[-2px] left-[100px];
+    @apply bottom-[-10px] right-[-20px];
   }
 
   .contentTitle.en::after{
-    @apply left-[240px];
+    @apply right-[40px];
   }
 
-  .name{
-    @apply text-[#444] text-[20px] font-normal leading-[30px];
+  .subTitle{
+    @apply text-[#141414] text-[28px] font-bold leading-[36px] mb-[20px] text-center;
   }
 
-  .name strong{
-    @apply inline-block ml-[4px] text-[24px] font-bold;
+  .subBoxGroup{
+    @apply flex justify-center items-center gap-[30px];
   }
 
-  .contentRight{
-    @apply w-[655px];
+  .subBoxGroup .box{
+    @apply w-[275px] h-[188px] p-[28px_0px] rounded-[5px] bg-[#eff2fb] text-center flex flex-col justify-center items-center gap-[20px];
   }
 
-  .contentList{
-    @apply border-none mb-0 flex flex-col items-start gap-[60px];
+  .subBoxGroup .box .title{
+    @apply text-[#141414] text-[24px] font-bold leading-[18px];
   }
 
-  .list{
-    @apply !p-[30px_20px] flex flex-col !gap-[20px] !items-start border-none;
-  }
-
-  .list span{
-    @apply !leading-[30px];
-  }
-
-  .date{
-    @apply text-[#999] text-[14px] font-normal leading-[18px] text-right;
+  .subBoxGroup .box .txt{
+    @apply text-[#444] text-[16px] font-normal leading-[25px];
   }
 </style>

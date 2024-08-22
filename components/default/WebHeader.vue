@@ -165,6 +165,7 @@ export default {
   mounted() {
     const headerNav = this.$el.querySelector('.headerNav')
     const headerNavCon = this.$el.querySelector('.headerNavCon')
+    const navLinks = this.$el.querySelectorAll('.navList a')
     const nuxtLinks = this.$el.querySelectorAll('.menuList a')
 
     headerNav.addEventListener('mouseover', () => {
@@ -182,6 +183,9 @@ export default {
     })
 
     nuxtLinks.forEach((link) => {
+      link.addEventListener('click', this.hideMenu)
+    })
+    navLinks.forEach((link) => {
       link.addEventListener('click', this.hideMenu)
     })
   },
@@ -217,17 +221,17 @@ export default {
 
 <style scoped>
 .webHeader {
-  @apply min-w-[1920px] w-full h-[80px] leading-[80px] border-b-[1px] border-[#d9d9d9] z-[999] sticky top-0 bg-[#fff];
+  @apply min-w-[1680px] max-w-full w-full h-[80px] leading-[80px] border-b-[1px] border-[#d9d9d9] z-[999] sticky top-0 bg-[#fff] flex justify-center;
 }
 header{
-  @apply w-[1920px] mx-auto  flex items-center justify-between
+  @apply max-w-[1680px] flex items-center justify-between;
 }
 .headerLogo img {
   @apply w-[272px];
 }
 
 .headerNav {
-  @apply relative z-[999];
+  @apply z-[999];
 }
 
 .navList {
@@ -248,10 +252,10 @@ header{
 }
 
 .headerNavCon {
-  @apply fixed w-full flex justify-center left-0 bg-[#fff] overflow-hidden duration-[0.4s];
+  @apply absolute min-w-[1680px] w-full flex justify-center left-0 bg-[#fff] overflow-hidden duration-[0.4s];
 }
 .menuList_w {
-  @apply w-[1388px] flex pl-[108px] justify-center;
+  @apply w-[1680px] pl-[250px] flex justify-start;
 }
 .menuList {
   @apply w-[160px] flex flex-col pt-[13px] pb-[40px];
