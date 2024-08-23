@@ -78,7 +78,7 @@ export default {}
 
 <style scoped>
 .lbsTitle{
-  @apply flex w-full flex-col items-center gap-2 pt-[54px]
+  @apply flex w-full flex-col items-center gap-2
 }
 .lbsTitle em{
   @apply text-[#9395a1] text-[16px] leading-5
@@ -87,7 +87,7 @@ export default {}
   @apply text-[#141414] text-[48px] leading-[60px]
 }
 .lbsContent{
-  @apply p-[60px_0_120px] flex w-full justify-center gap-[220px]
+  @apply flex w-full justify-center gap-[220px]
 }
 .lbsContent div:last-child{
   @apply flex flex-col w-[450px] gap-10

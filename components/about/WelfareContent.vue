@@ -277,7 +277,7 @@ export default {
 }
 
 .welfareList {
-  @apply w-full mt-[115px] pb-[300px] grid grid-cols-3 gap-[35px_24px]
+  @apply w-full mt-[90px] pb-[90px] grid grid-cols-3 gap-[35px_24px]
 }
 
 .welfareList .listBox{

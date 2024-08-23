@@ -109,7 +109,7 @@ export default {
   @apply mt-2
 }
 .section{
-  @apply flex-col gap-[50px]
+  @apply flex-col justify-between gap-[50px] py-[90px];
 }
 .contentTxt .title{
   @apply flex gap-[13px] justify-start items-center text-[#141414] font-normal text-[28px] mb-[15px];

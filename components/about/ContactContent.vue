@@ -69,7 +69,7 @@ export default {
 
 <style scoped>
   .categoryContent{
-    @apply flex-col items-center p-[10px_0_110px] gap-0;
+    @apply flex-col items-center gap-0;
   }
 
   .map{

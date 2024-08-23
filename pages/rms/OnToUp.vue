@@ -65,9 +65,11 @@ export default {
 .rassiBg {
   @apply bg-[#EFF2FB];
 }
-
+.rmsSystemContent{
+  @apply py-[90px];
+}
 .rmsTitle{
-  @apply flex w-full flex-col items-center gap-2 pt-[54px] text-center
+  @apply flex w-full flex-col items-center gap-2 text-center
 }
 .rmsTitle em{
   @apply text-[#9395a1] text-[16px] leading-5
@@ -76,7 +78,7 @@ export default {
   @apply text-[#141414] text-[48px] leading-[60px]
 }
 .rmsContent{
-  @apply p-[110px_0_120px] flex w-full justify-center items-center gap-[220px]
+  @apply pt-[90px] flex w-full justify-center items-center gap-[220px]
 }
 .rmsContent > div:last-child{
   @apply flex flex-col w-[550px] gap-[160px]

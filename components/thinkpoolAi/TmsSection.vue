@@ -61,7 +61,7 @@ export default {
 
 <style scoped>
 .section{
-  @apply min-h-fit h-auto py-[150px]
+  @apply min-h-fit h-auto py-[90px]
 }
 .pmsContent{
   @apply flex w-full justify-between

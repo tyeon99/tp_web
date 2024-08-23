@@ -113,7 +113,7 @@ export default {}
 }
 
 .sectionContent {
-  @apply flex justify-center items-center gap-[52px] pt-[100px];
+  @apply flex justify-center items-center gap-[52px] pt-[90px];
 }
 
 .txtBox {

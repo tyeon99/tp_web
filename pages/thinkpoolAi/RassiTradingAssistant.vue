@@ -104,7 +104,7 @@ export default {
   @apply mt-2
 }
 .section{
-  @apply flex-col gap-[50px]
+  @apply flex-col justify-between gap-[50px] py-[90px];
 }
 .rassiContent{
   @apply relative mt-[100px] flex justify-center;

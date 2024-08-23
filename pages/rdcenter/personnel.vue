@@ -112,9 +112,11 @@ export default {
   .rassiBg{
     @apply bg-[#EFF2FB];
   }
-
+.rnd{
+  @apply pt-[90px];
+}
 .rndTitle{
-  @apply flex w-full flex-col items-center gap-2 pt-[54px]
+  @apply flex w-full flex-col items-center gap-2
 }
 .rndTitle em{
   @apply text-[#9395a1] text-[16px] leading-5
@@ -123,7 +125,7 @@ export default {
   @apply text-[#141414] text-[48px] leading-[60px]
 }
 .rndContent{
-  @apply p-[90px_0_120px] flex w-full justify-center items-center gap-[65px]
+  @apply p-[90px_0] flex w-full justify-center items-center gap-[65px]
 }
 .rndContent > div:last-child{
   @apply flex flex-col w-[700px] h-[899px] justify-center bg-[#fbfbfb] rounded-[20px] p-[60px]

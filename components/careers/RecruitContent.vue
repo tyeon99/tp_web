@@ -3,8 +3,8 @@
     <div>
       <div class="board">
         <div class="titleSpan">Recruit</div>
-        <div class="title ko">채용공고</div>
-        <div class="title en">Recruit</div>
+        <div class="title ko !mb-[40px]">채용공고</div>
+        <div class="title en !mb-[40px]">Recruit</div>
         <div class="headName ko">
           AI, 빅데이터 시대를 함께 이끌어 갈 인재를 모집합니다.
         </div>

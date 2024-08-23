@@ -271,8 +271,11 @@ export default {
 .rassiBg {
   @apply bg-[#EFF2FB];
 }
+.fin{
+  @apply py-[90px];
+}
 .finTitle {
-  @apply flex w-full flex-col items-center gap-2 pt-[54px];
+  @apply flex w-full flex-col items-center gap-2;
 }
 .finTitle em {
   @apply text-[#9395a1] text-[16px] leading-5;
@@ -281,7 +284,7 @@ export default {
   @apply text-[#141414] text-[48px] leading-[60px];
 }
 .finContent{
-  @apply w-full flex flex-col items-center pb-[100px]
+  @apply w-full flex flex-col items-center;
 }
 .finContent .txt{
   @apply w-[989px] mx-auto pt-[45px] flex flex-col gap-[56px]
@@ -293,7 +296,7 @@ export default {
   @apply pb-4 text-[18px] leading-6 text-[#141414] font-bold
 }
 .dnw{
-  @apply w-[1353px] m-[100px_auto_100px] p-[0_32px] h-[70px] border-[1px] border-[#e6e6eb] rounded-[6px] flex items-center
+  @apply w-[1353px] m-[100px_auto_0] p-[0_32px] h-[70px] border-[1px] border-[#e6e6eb] rounded-[6px] flex items-center
 }
 .dnw button{
   @apply flex gap-4 text-[18px] text-[#141414] border-0 bg-transparent

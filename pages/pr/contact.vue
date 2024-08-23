@@ -166,8 +166,11 @@ export default {
 .rassiBg {
   @apply bg-[#EFF2FB];
 }
+.contact{
+  @apply py-[90px];
+}
 .contactTitle {
-  @apply flex w-full flex-col items-center gap-2 pt-[54px];
+  @apply flex w-full flex-col items-center;
 }
 .contactTitle em {
   @apply text-[#9395a1] text-[16px] leading-5;
@@ -179,7 +182,7 @@ export default {
   @apply pt-[90px] text-center text-[24px] text-black leading-[30px] font-normal
 }
 .contactContent{
-  @apply w-full pt-[80px] flex flex-col items-center pb-[100px]
+  @apply w-full pt-[90px] flex flex-col items-center;
 }
 .contact_top{
   @apply w-[1355px] mx-auto flex justify-between pl-6

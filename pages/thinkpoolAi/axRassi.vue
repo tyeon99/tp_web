@@ -5,7 +5,7 @@
       :activeIndex="selectedIndex"
       class="rassiBg"
     ></CategoryNav>
-    <LandingRassi class="rassiBg"></LandingRassi>
+    <LandingRassi class="rassiBg noFlex"></LandingRassi>
 
     <div class="rassiw">
       <div class="rassiTab">
@@ -59,7 +59,7 @@ export default {
 }
 
 .rassiw {
-  @apply w-[1360px] pt-[105px] mx-auto
+  @apply w-[1360px] pt-[90px] mx-auto
 }
 .rassiw .rassiTab{
   @apply w-full flex

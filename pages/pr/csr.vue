@@ -64,8 +64,11 @@ export default {
 .rassiBg {
   @apply bg-[#EFF2FB];
 }
+.csr{
+  @apply py-[90px];
+}
 .csrTitle {
-  @apply flex w-full flex-col items-center gap-2 pt-[54px];
+  @apply flex w-full flex-col items-center gap-2;
 }
 .csrTitle em {
   @apply text-[#9395a1] text-[16px] leading-5;
@@ -74,7 +77,7 @@ export default {
   @apply text-[#141414] text-[48px] leading-[60px];
 }
 .csrContent{
-  @apply w-full pt-[80px] flex flex-col items-center pb-[100px]
+  @apply w-full pt-[90px] flex flex-col items-center;
 }
 .csrContent .txt{
   @apply w-[989px] mx-auto pt-[45px] flex flex-col gap-[56px]

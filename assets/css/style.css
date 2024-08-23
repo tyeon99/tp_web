@@ -179,7 +179,7 @@ a{
 
 /* categoryIntro */
 .categoryIntro{
-  @apply w-full pt-[45px] text-center;
+  @apply w-full pt-[90px] text-center;
 }
 
 .categoryIntro .titieSpan{
@@ -187,13 +187,13 @@ a{
 }
 
 .categoryIntro .title{
-  @apply text-[#141414] text-[48px] font-bold leading-[60px] mb-[80px];
+  @apply text-[#141414] text-[48px] font-bold leading-[60px] mb-[90px];
 }
 /* categoryIntro */
 
 /* categoryContent */
 .categoryContent{
-  @apply w-full p-[114px_0] flex justify-center items-start gap-[150px];
+  @apply w-full p-0 pb-[90px] flex justify-center items-start gap-[150px];
 }
 
 .contentLeft{
@@ -285,12 +285,12 @@ a{
 /* award */
 
 /* LoginProtectionServices */
-.LoginProtectionServices{
-  @apply flex justify-center items-center p-[48px_0_200px];
+.LoginProtectionServices, .SafeKeeperServices{
+  @apply flex justify-center items-center py-[90px];
 }
 
 .lbsContent{
-  @apply w-[1480px] h-[740px] flex justify-between items-center gap-[100px];
+  @apply w-[1480px] pt-[90px] flex justify-between items-center gap-[100px];
 }
 /* LoginProtectionServices */
 
@@ -355,12 +355,12 @@ a{
 
 /* prBoard */
 .board{
-  @apply p-[45px_0_150px] w-[1353px];
+  @apply p-[90px_0] w-[1353px];
 }
 
 
 .board .title{
-  @apply text-[#141414] text-[48px] font-bold leading-[60px] text-center mb-[80px];
+  @apply text-[#141414] text-[48px] font-bold leading-[60px] text-center mb-[90px];
 }
 
 .board .boardList{
@@ -501,4 +501,10 @@ a{
 }
 .billTable table tbody .gubun td{
   @apply border-b-[#dcdcdc]
+}
+
+
+
+.noFlex{
+  @apply block py-[90px] h-auto;
 }

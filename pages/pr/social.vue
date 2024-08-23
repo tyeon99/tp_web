@@ -168,8 +168,11 @@ export default {
 .rassiBg {
   @apply bg-[#EFF2FB];
 }
+.social{
+  @apply pt-[90px];
+}
 .socialTitle {
-  @apply flex w-full flex-col items-center gap-2 pt-[54px];
+  @apply flex w-full flex-col items-center gap-2;
 }
 .socialTitle em {
   @apply text-[#9395a1] text-[16px] leading-5;
@@ -178,7 +181,7 @@ export default {
   @apply text-[#141414] text-[48px] leading-[60px];
 }
 .socialContent{
-  @apply w-full pt-[80px] flex flex-col items-center
+  @apply w-full pt-[90px] flex flex-col items-center
 }
 .tab{
   @apply flex
@@ -190,7 +193,7 @@ export default {
   @apply border-b-[1px] border-black text-[#141414]
 }
 .tabContent{
-  @apply w-full min-h-[1000px] bg-[#FCFAFA] py-[100px] flex justify-center
+  @apply w-full min-h-[1000px] bg-[#FCFAFA] py-[90px] flex justify-center
 }
 .tabCont{
   @apply w-[1353px]

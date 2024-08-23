@@ -72,7 +72,7 @@ export default {
 
 <style scoped>
 .categoryContent{
-  @apply w-[1357px] mx-auto gap-[130px] p-[40px_0_200px] flex flex-col items-center
+  @apply w-[1357px] mx-auto gap-[90px] p-[0px_0_90px] flex flex-col items-center
 }
 .contentHead {
   @apply text-black text-[48px] font-light flex justify-start items-center gap-[14px];

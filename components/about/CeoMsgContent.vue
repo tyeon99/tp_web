@@ -72,6 +72,9 @@ export default {
 </script>
 
 <style scoped>
+  .categoryContent{
+    @apply pt-[90px]
+  }
   .contentTitle::before{
     @apply left-[-20px] top-[-12px];
   }
@@ -82,6 +85,10 @@ export default {
 
   .contentTitle.en::after{
     @apply left-[240px];
+  }
+
+  .contentList{
+    @apply mb-0;
   }
 
   .name{
