@@ -334,7 +334,7 @@ export default {}
   @apply w-auto;
 }
 .procedure{
-  @apply w-[150px] h-[150px] border border-[#000] rounded-full pt-[38px];
+  @apply w-[150px] h-[150px] bg-[#F4F5F6] rounded-full pt-[38px];
 }
 .procedure .num{
   @apply text-[#5368ff] text-[14px] font-normal mb-[16px] text-center;
