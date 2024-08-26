@@ -77,11 +77,11 @@ export default {}
 }
 
 .sectionContent {
-  @apply flex justify-center items-center gap-[350px] pt-[220px];
+  @apply flex justify-center items-start gap-[350px] pt-[220px];
 }
 
 .img {
-  @apply flex justify-center items-center mb-[40px];
+  @apply h-[126px] flex justify-center items-center mb-[40px];
 }
 
 .boxTitle {
