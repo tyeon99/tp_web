@@ -2,7 +2,8 @@
   <div class="ContactContent">
     <div class="categoryContent">
       <div class="map">
-        <img src="~/assets/img/map.png" alt="" width="1356">
+        <img src="~/assets/img/map.png" class="ko" alt="" width="1356">
+        <img src="~/assets/img/map_en.png" class="en" alt="" width="1356">
       </div>
       <div class="detail ko">
         지하철 5호선/9호선 여의도역하차 5번 출구(KRX한국거래소 방향)로 나오셔서 10분 거리 <br>
