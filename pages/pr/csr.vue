@@ -18,28 +18,29 @@
           <div>
             <strong class="ko">봉사 및 후원</strong>
             <strong class="en">Service and sponsorship</strong>
-            <span>2023년 5월 노을공원 나무심기 봉사 및 후원</span>
-            <span>2022년 3월 ‘나의 걸음’이 기부가 되는 &lt;만보걷기 챌린지&gt;로 봉사단체 후원<br>&nbsp;&nbsp;(이태석재단, 다일 밥퍼사랑운동본부, 도산아카데미)</span>
-            <span>2019년  7월 밥퍼 나눔봉사 및 후원 (다일 밥퍼운동본부)</span>
-            <span>2018년  9월 밥퍼 나눔봉사 및 후원 (다일 밥퍼운동본부)</span>
-            <span>2017년  3월 송편나누기 봉사 및 후원 ((사)함께하는 한숲)</span>
-            <span>2016년  5월 사랑의 빵나누기 봉사 및 후원(대한적십자사 희망나눔봉사센터) </span>
-            <span>2015년  3월 밥퍼 나눔봉사 및 후원 (다일 밥퍼운동본부)</span>
-            <span>2014년  2월 사랑의 빵나누기 봉사 및 후원 (대한적십자사 희망나눔봉사센터)</span>
-            <span>2013년  7월 탈북청소년 대안학교 후원 ((사)여명학교, 2013.7~2016.9)</span>
+            <span><em>2023년 5월</em> 노을공원 나무심기 봉사 및 후원</span>
+            <span><em>2022년 3월</em> ‘나의 걸음’이 기부가 되는 &lt;만보걷기 챌린지&gt;로 봉사단체 후원<br>
+            <span class="line">(이태석재단, 다일 밥퍼사랑운동본부, 도산아카데미)</span></span>
+            <span><em>2019년  7월</em> 밥퍼 나눔봉사 및 후원 (다일 밥퍼운동본부)</span>
+            <span><em>2018년  9월</em> 밥퍼 나눔봉사 및 후원 (다일 밥퍼운동본부)</span>
+            <span><em>2017년  3월</em> 송편나누기 봉사 및 후원 ((사)함께하는 한숲)</span>
+            <span><em>2016년  5월</em> 사랑의 빵나누기 봉사 및 후원(대한적십자사 희망나눔봉사센터) </span>
+            <span><em>2015년  3월</em> 밥퍼 나눔봉사 및 후원 (다일 밥퍼운동본부)</span>
+            <span><em>2014년  2월</em> 사랑의 빵나누기 봉사 및 후원 (대한적십자사 희망나눔봉사센터)</span>
+            <span><em>2013년  7월</em> 탈북청소년 대안학교 후원 ((사)여명학교, 2013.7~2016.9)</span>
           </div>
           <!-- // -->
 
           <div>
             <strong class="ko">메세나</strong>
             <strong class="en">Messena</strong>
-            <span>2024년 문화예술활동 후원(앙상블공간, 한국문화예술위원회)</span>
-            <span>2023년 문화예술활동 후원(앙상블공간, 한국문화예술위원회)</span>
-            <span>2022년 문화예술활동 후원(앙상블공간, 한국문화예술위원회)</span>
-            <span>2021년 문화예술활동 후원(앙상블공간, 한국문화예술위원회)</span>
-            <span>2020년 문화예술활동 후원(앙상블공간, 한국문화예술위원회)</span>
-            <span>2018년 문화예술활동 후원(앙상블공간, 한국문화예술위원회)</span>
-            <span>2015년 문화예술활동 후원(앙상블공간, 한국문화예술위원회)</span>
+            <span><em>2024년</em> 문화예술활동 후원(앙상블공간, 한국문화예술위원회)</span>
+            <span><em>2023년</em> 문화예술활동 후원(앙상블공간, 한국문화예술위원회)</span>
+            <span><em>2022년</em> 문화예술활동 후원(앙상블공간, 한국문화예술위원회)</span>
+            <span><em>2021년</em> 문화예술활동 후원(앙상블공간, 한국문화예술위원회)</span>
+            <span><em>2020년</em> 문화예술활동 후원(앙상블공간, 한국문화예술위원회)</span>
+            <span><em>2018년</em> 문화예술활동 후원(앙상블공간, 한국문화예술위원회)</span>
+            <span><em>2015년</em> 문화예술활동 후원(앙상블공간, 한국문화예술위원회)</span>
           </div>
         </div>
       </div>
@@ -90,5 +91,11 @@ export default {
 }
 .csrContent .txt div span, .csrContent .txt div a{
   @apply cursor-pointer text-[16px] text-[#444]
+}
+.csrContent .txt div span em{
+  @apply font-medium inline-block mr-[20px];
+}
+.csrContent .txt div span span.line{
+  @apply ml-[107px];
 }
 </style>
