@@ -39,8 +39,8 @@
               military service.
             </span>
 
-            <button class="ko">전문연구요원 채용공고 바로가기</button>
-            <button class="en">View open posiiton</button>
+            <!-- <button class="ko">전문연구요원 채용공고 바로가기</button>
+            <button class="en">View open posiiton</button> -->
           </div>
           <!-- // -->
            

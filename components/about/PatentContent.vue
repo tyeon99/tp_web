@@ -3,7 +3,7 @@
     <div class="categoryContent">
       <div class="top">
         <div class="img">
-          <img src="~/assets/img/patentImg2.png" alt="수상" />
+          <img src="~/assets/img/patentImg3.png" alt="수상" />
           <p class="ko">특허경영대상 수상</p>
           <p class="en">Winning the Patent Management Award</p>
         </div>
